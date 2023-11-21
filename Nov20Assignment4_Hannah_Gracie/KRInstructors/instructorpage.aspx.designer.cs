@@ -24,6 +24,15 @@ namespace Nov20Assignment4_Hannah_Gracie.KRInstructors
         protected global::System.Web.UI.WebControls.LoginName LoginName1;
 
         /// <summary>
+        /// Label1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
+
+        /// <summary>
         /// LoginStatus1 control.
         /// </summary>
         /// <remarks>
@@ -31,5 +40,14 @@ namespace Nov20Assignment4_Hannah_Gracie.KRInstructors
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LoginStatus LoginStatus1;
+
+        /// <summary>
+        /// GridView1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridView1;
     }
 }
