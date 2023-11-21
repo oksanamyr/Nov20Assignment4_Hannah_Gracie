@@ -186,7 +186,10 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="KRAdministrators\adminpage.aspx" />
+    <Content Include="KRAdministrators\addInstructor.aspx" />
+    <Content Include="KRAdministrators\addMember.aspx" />
+    <Content Include="KRAdministrators\addSection.aspx" />
+    <Content Include="KRAdministrators\administrator.aspx" />
     <Content Include="KRInstructors\instructorpage.aspx" />
     <Content Include="KRMembers\memberpage.aspx" />
     <Content Include="Logon.aspx" />
@@ -243,7 +246,6 @@
     <Content Include="packages\bootstrap.5.2.3\content\Scripts\bootstrap.esm.min.js" />
     <Content Include="packages\bootstrap.5.2.3\content\Scripts\bootstrap.js" />
     <Content Include="packages\bootstrap.5.2.3\content\Scripts\bootstrap.min.js" />
-    <Content Include="KRAdministrators\Web.config" />
     <Content Include="KRInstructors\Web.config" />
     <Content Include="KRMembers\Web.config" />
     <None Include="packages\jQuery.3.4.1\Content\Scripts\jquery-3.4.1-vsdoc.js" />
@@ -605,12 +607,33 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Karate.dbml</DependentUpon>
     </Compile>
-    <Compile Include="KRAdministrators\adminpage.aspx.cs">
-      <DependentUpon>adminpage.aspx</DependentUpon>
+    <Compile Include="KRAdministrators\addInstructor.aspx.cs">
+      <DependentUpon>addInstructor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="KRAdministrators\adminpage.aspx.designer.cs">
-      <DependentUpon>adminpage.aspx</DependentUpon>
+    <Compile Include="KRAdministrators\addInstructor.aspx.designer.cs">
+      <DependentUpon>addInstructor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KRAdministrators\addMember.aspx.cs">
+      <DependentUpon>addMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KRAdministrators\addMember.aspx.designer.cs">
+      <DependentUpon>addMember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KRAdministrators\addSection.aspx.cs">
+      <DependentUpon>addSection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KRAdministrators\addSection.aspx.designer.cs">
+      <DependentUpon>addSection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KRAdministrators\administrator.aspx.cs">
+      <DependentUpon>administrator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KRAdministrators\administrator.aspx.designer.cs">
+      <DependentUpon>administrator.aspx</DependentUpon>
     </Compile>
     <Compile Include="KRInstructors\instructorpage.aspx.cs">
       <DependentUpon>instructorpage.aspx</DependentUpon>

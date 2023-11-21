@@ -62,7 +62,7 @@ namespace Nov20Assignment4_Hannah_Gracie
 
                 FormsAuthentication.RedirectFromLoginPage(HttpContext.Current.Session["nUserName"].ToString(), true);
 
-                Response.Redirect("~/KRAdministrators/adminpage.aspx");
+                Response.Redirect("~/KRAdministrators/admin.aspx");
             }
             else
                 Response.Redirect("Logon.aspx", true);
