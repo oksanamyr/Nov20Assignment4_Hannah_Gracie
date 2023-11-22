@@ -12,7 +12,7 @@ namespace Nov20Assignment4_Hannah_Gracie
     {
 
         KarateDataContext dbcon;
-        string conn = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Oksan\\source\\repos\\Nov20Assignment4_Hannah_Gracie\\Nov20Assignment4_Hannah_Gracie\\App_Data\\KarateSchool.mdf;Integrated Security=True;Connect Timeout=30";
+        string conn = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Graci\\Source\\Repos\\Nov20Assignment4_Hannah_Gracie\\Nov20Assignment4_Hannah_Gracie\\App_Data\\KarateSchool.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=False";
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -62,7 +62,7 @@ namespace Nov20Assignment4_Hannah_Gracie
 
                 FormsAuthentication.RedirectFromLoginPage(HttpContext.Current.Session["nUserName"].ToString(), true);
 
-                Response.Redirect("~/KRAdministrators/admin.aspx");
+                Response.Redirect("~/KRAdministrators/administrator.aspx");
             }
             else
                 Response.Redirect("Logon.aspx", true);
